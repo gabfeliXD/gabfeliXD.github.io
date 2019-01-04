@@ -1,77 +1,152 @@
-a {
-	font-size: 15px;
-}
-
-a:link {
-	color: red;
+/* LINKS */
+a{
+	color: #00f;
 	text-decoration: none;
+
 }
 
 a:hover {
-	color: blue;
-	text-decoration: underline;
+	color: #33f;
+	
 }
 
-#contact-list #contact-github {
-	list-style-image: url("images/github-icon.png");
+/*Imagens*/
+.img-jogo{
+	width: 480px;
+	height: 270px;
+	margin: 10px;
+
 }
 
-#contact-list #contact-linkedin {
-	list-style-image: url("images/linkedin-icon.png");
+.img_wrap:hover .img_description {
+	opacity: 1;
+
 }
 
-#contact-list #contact-gmail {
-	list-style-image: url("images/gmail-icon.png");
+.img_description{
+	margin-top: -150px;
+  	margin-bottom: -10px;
+
+}
+
+.img_description{
+  position: relative;
+ 
+  margin-top: -150px;
+  margin-bottom: -10px;
+
+  opacity: 0;
+  transition: 0.5s;
+
+  background-color: #191919;
+
+  color: #fff;
+  font-size: 0.7em;
+  text-align: center;
+
 }
 
 
+
+
+
+
+/* AREAS */
+body{
+	background-color: #191919;
+	font-family: 'Press Start 2P', cursive;
+	color: #FFF;
+}
 
 
 #header {
 	height: 400px;
-	background-color: black;
+	background-color: #191919;
 	padding: 70px;
-	margin: -10px -10px 0px -10px;
+	margin: -10px -8px 0px -8px;
 
 }
 
+#nav {
+	background-color: #3CE1C0;
+	margin: 0px -8px 0px -8px;
+	padding: 5px;
+}
+
+
+#content {
+	display: flex;
+	justify-content: center;
+
+	margin: 0em 10em 10em 10em;
+	
+	background-color: #191919;
+
+	text-align: center;
+	line-height: 2em;
+	font-size: 1em;
+
+	
+}
+
+#tabela-de-jogos{
+	margin-bottom: 100px;
+}
+
+#footer {
+	background-color: #3CE1C0;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+
+    font-size: 0.5em;
+}
+
+/**/
 #profile-image{
 	border-radius: 50%;
 	display: block;
 	margin: auto;
-	border: solid 5px red;
+	border: solid 5px  #3CE1C0;
 }
 
 #header-text {
 	margin-top: 20px;
 	text-align: center;
 	color: #FFF;
-	font-family: 'Press Start 2P', cursive;
+	
+	font-size: 2.5em;
 }
 
-#nav {
-	background-color: red;
-	margin: 0px -10px 0px -10px;
-	padding: 10px;
-	display: flex;
-	justify-content: center;
 
-}
 
 button  {
-	background-color: black;
 	color: white;
-	border: none;
-	padding: 10px;
-	margin-right: 5px;
-	margin-left: 5px;
+	font-size: 1em;
+
+	background-color: #191919;
+	border: solid 1px #191919;
+
+	display: block;
+	
+	padding: 15px;
+	margin: 5px auto 0px auto;
+	
+	font-family: 'Press Start 2P', cursive;
+	
+	transition: background-color 1s, padding 1s;
 }
 
-#content {
-	display: flex;
-	justify-content: center;
+button:hover{
+	background-color: #3CE1C0;
+	padding: 20px;
 }
+
+
 
 p {
 	font-size: 20px;
 }
+
