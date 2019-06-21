@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<dados>
+
+    <lugar nome="Auditorio">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non incidunt quis sequi quae inventore expedita, esse ea recusandae accusamus perferendis laudantium id quia quo sed temporibus repudiandae ducimus eligendi nesciunt!</lugar>
+
+    <lugar nome="PredioPrincipal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti omnis molestiae debitis fugit et unde autem saepe id esse, ad sequi illo officiis laudantium perferendis hic adipisci tenetur aperiam eaque?</lugar>
+
+    <lugar nome="Anexo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt qui sequi dolor officiis, non veniam id dolorem omnis ex suscipit commodi iusto error reprehenderit blanditiis. Tempore rerum pariatur delectus omnis.</Anexo>
+
+    <lugar nome="Nucleo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam expedita molestias eum, accusamus dolores. Illum commodi quibusdam, omnis earum velit maiores recusandae quasi deleniti praesentium in sit et dolore.</lugar>
+
+    <lugar nome="Ginasio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quaerat quo corporis ducimus distinctio reprehenderit? Unde aliquid pariatur, labore inventore repellat quibusdam porro maiores iure minima, repudiandae quia nesciunt odio?</lugar>
+
+    <lugar nome="Mapa_Frente">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque quaerat quo corporis ducimus distinctio reprehenderit? Unde aliquid pariatur, labore inventore repellat quibusdam porro maiores iure minima, repudiandae quia nesciunt odio?</lugar>
+</dados>
